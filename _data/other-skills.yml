@@ -1,0 +1,40 @@
+
+- name: Leadership & Team Management
+  percentage: 90
+  level: Advanced
+  color: primary
+
+- name: Communication & Public Relations
+  percentage: 85
+  level: Proficient
+  color: success
+
+- name: Mentorship & Instruction
+  percentage: 90
+  level: Advanced
+  color: info
+
+- name: Problem Solving & Critical Thinking
+  percentage: 85
+  level: Proficient
+  color: warning
+
+- name: Teamwork & Collaboration
+  percentage: 90
+  level: Advanced
+  color: secondary
+
+- name: Project Planning & Organization
+  percentage: 80
+  level: Proficient
+  color: primary
+
+- name: Research & Analytical Thinking
+  percentage: 75
+  level: Intermediate
+  color: success
+
+- name: Adaptability & Continuous Learning
+  percentage: 85
+  level: Proficient
+  color: info

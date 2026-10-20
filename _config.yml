@@ -1,0 +1,107 @@
+
+### Site Settings ###
+title: "Saumitra Gupta | Portfolio"
+description: >-
+  Information Sciences + Data Science student at the University of Illinois
+  Urbana-Champaign, interested in quantum computing, artificial intelligence,
+  data science, and software development.
+
+# Root GitHub Pages site
+baseurl: ""
+repository: "saumitragupta1901-svg/saumitragupta1901-svg.github.io"
+open_new_tab: true
+
+### Plugins ###
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  - mini_magick
+
+### Local Development ###
+port: 4008
+
+### Navbar Settings ###
+nav_exclude:
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**
+  - pages/blog.html
+
+### Author Info ###
+author:
+  name: "Saumitra Gupta"
+
+  # Add a profile picture URL here when ready.
+  # image: "https://example.com/profile.jpg"
+
+  # Add your actual email address before publishing.
+  # email: "your-email@example.com"
+
+  github: "saumitragupta1901-svg"
+
+  # Add your LinkedIn username when ready.
+  # linkedin: "your-linkedin-username"
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:
+    output: true
+
+### Disqus ###
+disqus:
+  shortname: ""
+
+### Analytics ###
+analytics:
+  enabled: false
+  google:
+    tracking_id: ""
+
+### Buy Me a Coffee ###
+buymeacoffee:
+  enabled: false
+  username: ""
+  color: "#007bff"
+  message: "Thank you for visiting."
+  description: "Support my work!"
+
+### Defaults for Collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+  - scope:
+      path: ""
+      type: "elements"
+    values:
+      layout: "element"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
+
+### Exclude from Processing ###
+exclude:
+  - README.md
+  - README.md~
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - LICENSE.md~
+  - config.yml~
+  - "*.log"
+  - "*.ipynb"
+  - "python_notebooks/*"
+  - vendor

@@ -1,0 +1,45 @@
+
+- name: Python
+  percentage: 85
+  level: Proficient
+  color: primary
+
+- name: Pandas / NumPy
+  percentage: 80
+  level: Proficient
+  color: success
+
+- name: Data Visualization (Matplotlib / Tableau)
+  percentage: 75
+  level: Intermediate
+  color: info
+
+- name: Machine Learning (scikit-learn)
+  percentage: 65
+  level: Intermediate
+  color: warning
+
+- name: JavaScript / TypeScript
+  percentage: 70
+  level: Intermediate
+  color: primary
+
+- name: HTML5 / CSS3
+  percentage: 70
+  level: Intermediate
+  color: success
+
+- name: React / Next.js
+  percentage: 70
+  level: Intermediate
+  color: info
+
+- name: SQL / Supabase
+  percentage: 60
+  level: Intermediate
+  color: warning
+
+- name: Git / GitHub
+  percentage: 75
+  level: Intermediate
+  color: secondary
