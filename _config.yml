@@ -34,15 +34,15 @@ author:
   name: "Saumitra Gupta"
 
   # Add a profile picture URL here when ready.
-  # image: "https://example.com/profile.jpg"
+  image: "/assets/profile.jpg"
 
   # Add your actual email address before publishing.
-  # email: "your-email@example.com"
+  email: "saumitra.gupta1901@gmail.com"
 
   github: "saumitragupta1901-svg"
 
   # Add your LinkedIn username when ready.
-  # linkedin: "your-linkedin-username"
+  linkedin: "https://www.linkedin.com/in/saumitra-gupta-ba603737a/?isSelfProfile=true"
 
 ### Posts ###
 permalink: /blog/:title
